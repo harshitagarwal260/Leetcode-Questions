@@ -18,9 +18,8 @@ class Solution {
         arr[b--] = nums[j] * nums[j];
         j--;
       } else if (Math.abs(nums[i]) == Math.abs(nums[j])) {
-        arr[b--] = nums[i] * nums[i];  //Math.pow(nums[i],2)
-        arr[b--] = nums[i] * nums[i];   //Math.pow(nums[i],2)
-        
+        arr[b--] = nums[i] * nums[i];
+        arr[b--] = nums[i] * nums[i];
         i++;
         j--;
       }
